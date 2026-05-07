@@ -1,0 +1,19 @@
+a) The file employee_info.py contains a list of dictionaries called employee_data.
+
+Each dictionary represents one employee record. The keys used in each dictionary are:
+"name", "age", "department", and "salary".
+
+The program is an employee information tracker with functions to:
+- display all employee records
+- calculate the average salary
+- display employees within a selected age range
+- display employees from a selected department
+
+Some functions are incomplete and need to be implemented, such as:
+calculate_average_salary() and get_employees_by_dept().
+
+b) The missing implementation was added to calculate_average_salary() and get_employees_by_dept().
+
+calculate_average_salary() loops through employee_data, adds all employee salaries, divides the total by the number of employees, and returns the average salary.
+
+get_employees_by_dept() loops through employee_data, checks whether each employee's department matches the department entered by the user, appends matching employees into a result list, and returns the result list.
